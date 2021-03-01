@@ -30,3 +30,16 @@ I really like to develop Frontend for websites and single page applications (SPA
 - [Project 4](http://u98610.test-handyhost.ru/constructor/)
 
 #### I like code
+```jsx
+onToggleCross(id) {
+    this.setState(({data}) => {
+        const index = data.findIndex(elem => elem.id === id)
+        const old = data[index]
+        const newItem = {...old, cross: !old.cross}
+        const newArr = [...data.slice(0, index), newItem, ...data.slice(index + 1)]
+            return {
+                data: newArr
+            }
+    })
+}
+```
