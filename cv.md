@@ -1,10 +1,10 @@
 # Anna Topalidi
-###Front-End Developer
+### Front-End Developer
 ###### Poland, Krakow
 #### About me
 I really like to develop Frontend for websites and single page applications (SPA) with use React. I write clear and structured code. I am punctual and responsible.
 
-####Contacts
+#### Contacts
 - topalidisanna@gmail.com
 - [Telegram](http://t.me/anna-top)
 
