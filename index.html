@@ -6,15 +6,16 @@
     <title>CV Anna Topalidi</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
     <aside class="left-side">
-        <div class="photo">
-            <img src="img/photo.png" alt="photo" class="photo__img">
-        </div>
+        <header>
+            <div class="photo">
+                <img src="img/photo.png" alt="photo" class="photo__img">
+            </div>
+        </header>
         <section class="contacts">
             <h2 class="contacts-title">Contacts</h2>
             <ul>
@@ -63,18 +64,18 @@
                 <li class="skills-item">Teamwork</li>
             </ul>
         </section>
-        <section class="widget">
+        <div class="widget">
             <a class="widget-link" href="./resume_pdf.pdf" download>Download Resume</a>
-        </section>
+        </div>
     </aside>
-    <div class="right-side">
+    <main class="right-side">
         <section class="bio">
             <h1 class="bio-title">
                 Anna Topalidi
             </h1>
-            <p class="bio-occupation">
+            <mark class="bio-occupation">
                 Front-end developer
-            </p>
+            </mark>
             <p class="bio-about">
                 I really like to develop Frontend for websites and single page applications (SPA) with use React. I
                 write clear and structured code. I am punctual and responsible.
@@ -181,7 +182,7 @@
                 September 2001 - June 2007
             </p>
         </section>
-    </div>
+    </main>
 </div>
 </body>
 </html>
