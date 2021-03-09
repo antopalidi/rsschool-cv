@@ -118,6 +118,29 @@
                 </li>
             </ol>
         </section>
+        <section class="example">
+            <h2 class="projects-title">
+                Example code
+            </h2>
+            <details open="">
+                <summary class="code-section">Show</summary>
+                <pre>
+                    <code>
+    onToggleCross(id) {
+       this.setState(({data}) => {
+            const index = data.findIndex(elem => elem.id === id)
+            const old = data[index]
+            const newItem = {...old, cross: !old.cross}
+            const newArr = [...data.slice(0, index), newItem, ...data.slice(index + 1)]
+                return {
+                   data: newArr
+                }
+       })
+    }
+                    </code>
+                </pre>
+            </details>
+        </section>
         <section class="jobs">
             <h2 class="jobs-title">
                 Employment history
